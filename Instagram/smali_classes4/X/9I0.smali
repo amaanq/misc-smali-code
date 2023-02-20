@@ -1,0 +1,33 @@
+.class public final LX/9I0;
+.super Ljava/lang/Object;
+.source ""
+
+
+# direct methods
+.method public static final A00()LX/2lo;
+    .locals 1
+
+    .line 0
+    sget-object v0, LX/2lo;->A00:LX/2lo;
+
+    .line 1
+    .line 2
+    if-nez v0, :cond_0
+
+    .line 3
+    .line 4
+    invoke-static {}, LX/7bs;->A0t()V
+
+    .line 5
+    .line 6
+    .line 7
+    const/4 v0, 0x0
+
+    .line 8
+    throw v0
+
+    .line 9
+    :cond_0
+    return-object v0
+    .line 10
+.end method

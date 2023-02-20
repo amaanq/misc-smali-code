@@ -1,0 +1,146 @@
+.class public final Lv9/l;
+.super Ljava/lang/Object;
+.source "YoungPlayerRegisterFlow.kt"
+
+# interfaces
+.implements Landroid/os/Parcelable$Creator;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Landroid/os/Parcelable$Creator<",
+        "Lcom/supercell/id/ui/youngplayer/register/YoungPlayerRegisterFlowFragment$BackStackEntry;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    .locals 5
+
+    const/16 v1, 0x6
+
+    new-array v0, v1, [C
+
+    const/16 v2, -0x19be
+
+    xor-int/lit16 v2, v2, -0x19d9
+
+    int-to-char v2, v2
+
+    const v1, 0x4
+
+    aput-char v2, v0, v1
+
+    const v1, 0x4
+
+    aget-char v2, v0, v1
+
+    xor-int/lit16 v2, v2, 0x4
+
+    int-to-char v2, v2
+
+    const v1, 0x1
+
+    aput-char v2, v0, v1
+
+    const v1, 0x1
+
+    aget-char v2, v0, v1
+
+    xor-int/lit16 v2, v2, 0xd
+
+    int-to-char v2, v2
+
+    const v1, 0x5
+
+    aput-char v2, v0, v1
+
+    const v1, 0x4
+
+    aget-char v2, v0, v1
+
+    xor-int/lit16 v2, v2, 0x15
+
+    int-to-char v2, v2
+
+    const v1, 0x0
+
+    aput-char v2, v0, v1
+
+    const v1, 0x4
+
+    aget-char v2, v0, v1
+
+    xor-int/lit16 v2, v2, 0x17
+
+    int-to-char v2, v2
+
+    const v1, 0x2
+
+    aput-char v2, v0, v1
+
+    const v1, 0x0
+
+    aget-char v2, v0, v1
+
+    xor-int/lit16 v2, v2, 0x13
+
+    int-to-char v2, v2
+
+    const v1, 0x3
+
+    aput-char v2, v0, v1
+
+    new-instance v2, Ljava/lang/String;
+
+    invoke-direct {v2, v0}, Ljava/lang/String;-><init>([C)V
+
+    invoke-virtual {v2}, Ljava/lang/String;->intern()Ljava/lang/String;
+
+    move-result-object v3
+
+    .line 1
+    invoke-static {p1, v3}, Lv2/c;->d(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 2
+    new-instance v3, Lcom/supercell/id/ui/youngplayer/register/YoungPlayerRegisterFlowFragment$BackStackEntry;
+
+    .line 3
+    const-class v4, Lcom/supercell/id/IdPendingRegistration;
+
+    invoke-virtual {v4}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
+
+    move-result-object v4
+
+    invoke-virtual {p1, v4}, Landroid/os/Parcel;->readParcelable(Ljava/lang/ClassLoader;)Landroid/os/Parcelable;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/supercell/id/IdPendingRegistration;
+
+    invoke-direct {v3, p1}, Lcom/supercell/id/ui/youngplayer/register/YoungPlayerRegisterFlowFragment$BackStackEntry;-><init>(Lcom/supercell/id/IdPendingRegistration;)V
+
+    return-object v3
+.end method
+
+.method public final newArray(I)[Ljava/lang/Object;
+    .locals 0
+
+    new-array p1, p1, [Lcom/supercell/id/ui/youngplayer/register/YoungPlayerRegisterFlowFragment$BackStackEntry;
+
+    return-object p1
+.end method

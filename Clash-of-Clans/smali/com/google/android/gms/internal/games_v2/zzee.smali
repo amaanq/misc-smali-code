@@ -1,0 +1,59 @@
+.class public final synthetic Lcom/google/android/gms/internal/games_v2/zzee;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-games-v2@@17.0.0"
+
+# interfaces
+.implements Lcom/google/android/gms/internal/games_v2/zzaq;
+
+
+# instance fields
+.field public final synthetic zza:Lcom/google/android/gms/games/Player;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/google/android/gms/games/Player;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/games_v2/zzee;->zza:Lcom/google/android/gms/games/Player;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final zza(La2/n;)Ll3/i;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/gms/internal/games_v2/zzee;->zza:Lcom/google/android/gms/games/Player;
+
+    invoke-static {}, Lb2/v;->builder()Lb2/u;
+
+    move-result-object v1
+
+    new-instance v2, Lcom/google/android/gms/internal/games_v2/zzdn;
+
+    invoke-direct {v2, v0}, Lcom/google/android/gms/internal/games_v2/zzdn;-><init>(Lcom/google/android/gms/games/Player;)V
+
+    .line 2
+    iput-object v2, v1, Lb2/u;->a:Lb2/r;
+
+    const/16 v0, 0x1a39
+
+    .line 3
+    iput v0, v1, Lb2/u;->d:I
+
+    .line 4
+    invoke-virtual {v1}, Lb2/u;->a()Lb2/v;
+
+    move-result-object v0
+
+    .line 5
+    invoke-virtual {p1, v0}, La2/n;->doRead(Lb2/v;)Ll3/i;
+
+    move-result-object p1
+
+    return-object p1
+.end method

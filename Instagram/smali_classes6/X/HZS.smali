@@ -1,0 +1,50 @@
+.class public final LX/HZS;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements LX/I3j;
+
+
+# instance fields
+.field public final synthetic A00:LX/FyN;
+
+
+# direct methods
+.method public constructor <init>(LX/FyN;)V
+    .locals 0
+
+    .line 0
+    iput-object p1, p0, LX/HZS;->A00:LX/FyN;
+
+    .line 1
+    .line 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 3
+    .line 4
+    .line 5
+    return-void
+.end method
+
+
+# virtual methods
+.method public final BBS()LX/G5h;
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, LX/HZS;->A00:LX/FyN;
+
+    .line 1
+    .line 2
+    iget-object v0, v0, LX/FyN;->A02:LX/FQE;
+
+    .line 3
+    .line 4
+    iget-object v0, v0, LX/FQE;->A08:LX/G5h;
+
+    .line 5
+    .line 6
+    return-object v0
+    .line 7
+.end method

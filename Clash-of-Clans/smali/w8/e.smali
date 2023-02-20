@@ -1,0 +1,161 @@
+.class public final Lw8/e;
+.super Lxa/h;
+.source "DonateFragment.kt"
+
+# interfaces
+.implements Lwa/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lxa/h;",
+        "Lwa/a<",
+        "Lna/n;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lw8/f;
+
+
+# direct methods
+.method public constructor <init>(Lw8/f;)V
+    .locals 0
+
+    iput-object p1, p0, Lw8/e;->a:Lw8/f;
+
+    const/4 p1, 0x0
+
+    invoke-direct {p0, p1}, Lxa/h;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 7
+
+    .line 1
+    iget-object v3, p0, Lw8/e;->a:Lw8/f;
+
+    iget-object v4, v3, Lw8/f;->a:Lw8/h;
+
+    .line 2
+    iget-object v4, v4, Lw9/u;->f:Landroidx/fragment/app/e0;
+
+    .line 3
+    check-cast v4, Lw8/p;
+
+    iget-object v3, v3, Lw8/f;->g:Lw9/j2;
+
+    check-cast v3, Lw8/r;
+
+    .line 4
+    iget-object v3, v3, Lw8/r;->b:Ljava/lang/String;
+
+    .line 5
+    invoke-static {v4}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    const/16 v1, 0x4
+
+    new-array v0, v1, [C
+
+    const/16 v2, 0x5d2c
+
+    xor-int/lit16 v2, v2, 0x5d48
+
+    int-to-char v2, v2
+
+    const v1, 0x3
+
+    aput-char v2, v0, v1
+
+    const v1, 0x3
+
+    aget-char v2, v0, v1
+
+    xor-int/lit16 v2, v2, 0x7
+
+    int-to-char v2, v2
+
+    const v1, 0x1
+
+    aput-char v2, v0, v1
+
+    const v1, 0x1
+
+    aget-char v2, v0, v1
+
+    xor-int/lit16 v2, v2, 0x10
+
+    int-to-char v2, v2
+
+    const v1, 0x0
+
+    aput-char v2, v0, v1
+
+    const v1, 0x1
+
+    aget-char v2, v0, v1
+
+    xor-int/lit16 v2, v2, 0xa
+
+    int-to-char v2, v2
+
+    const v1, 0x2
+
+    aput-char v2, v0, v1
+
+    new-instance v2, Ljava/lang/String;
+
+    invoke-direct {v2, v0}, Ljava/lang/String;-><init>([C)V
+
+    invoke-virtual {v2}, Ljava/lang/String;->intern()Ljava/lang/String;
+
+    move-result-object v5
+
+    .line 6
+    invoke-static {v3, v5}, Lv2/c;->d(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 7
+    invoke-virtual {v4}, Lw8/p;->k1()Lcom/supercell/id/model/IdSystem;
+
+    move-result-object v5
+
+    if-eqz v5, :cond_0
+
+    .line 8
+    iget-object v5, v5, Lcom/supercell/id/model/IdSystem;->a:Ljava/lang/String;
+
+    if-eqz v5, :cond_0
+
+    .line 9
+    sget-object v6, Lcom/supercell/id/SupercellId;->INSTANCE:Lcom/supercell/id/SupercellId;
+
+    invoke-virtual {v6}, Lcom/supercell/id/SupercellId;->getSharedServices$supercellId_release()Lw9/x;
+
+    move-result-object v6
+
+    invoke-virtual {v6}, Lw9/x;->D()Lx9/q2;
+
+    move-result-object v6
+
+    invoke-virtual {v6, v5, v3}, Lx9/q2;->g(Ljava/lang/String;Ljava/lang/String;)Leb/i0;
+
+    move-result-object v3
+
+    .line 10
+    sget-object v5, Lw8/k;->g:Lw8/k;
+
+    invoke-static {v3, v4, v5}, Lc5/k2;->g(Leb/i0;Ljava/lang/Object;Lwa/p;)Leb/i0;
+
+    .line 11
+    :cond_0
+    sget-object v3, Lna/n;->a:Lna/n;
+
+    return-object v3
+.end method

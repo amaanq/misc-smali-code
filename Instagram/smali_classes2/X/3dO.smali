@@ -1,0 +1,195 @@
+.class public final LX/3dO;
+.super LX/3Ci;
+.source ""
+
+
+# instance fields
+.field public final synthetic A00:LX/13b;
+
+
+# direct methods
+.method public constructor <init>(LX/13b;)V
+    .locals 0
+
+    .line 0
+    iput-object p1, p0, LX/3dO;->A00:LX/13b;
+
+    .line 1
+    .line 2
+    invoke-direct {p0}, LX/3Ci;-><init>()V
+
+    .line 3
+    .line 4
+    .line 5
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onFailInBackground(LX/3D0;)V
+    .locals 2
+
+    .line 0
+    const v0, 0x56ce433
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-static {v0}, LX/0nS;->A03(I)I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v1
+
+    .line 7
+    invoke-super {p0, p1}, LX/3Ci;->onFailInBackground(LX/3D0;)V
+
+    .line 8
+    .line 9
+    .line 10
+    const v0, 0x19462753
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-static {v0, v1}, LX/0nS;->A0A(II)V
+
+    .line 14
+    .line 15
+    .line 16
+    return-void
+    .line 17
+    .line 18
+.end method
+
+.method public final onStart()V
+    .locals 3
+
+    .line 0
+    const v0, 0x6d7caae4
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-static {v0}, LX/0nS;->A03(I)I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v2
+
+    .line 7
+    invoke-super {p0}, LX/3Ci;->onStart()V
+
+    .line 8
+    .line 9
+    .line 10
+    sget-object v1, LX/0zv;->A0J:LX/0zv;
+
+    .line 11
+    .line 12
+    const-string v0, "STORIES_REQUEST_START"
+
+    .line 13
+    .line 14
+    invoke-virtual {v1, v0}, LX/0zv;->A0C(Ljava/lang/String;)V
+
+    .line 15
+    .line 16
+    .line 17
+    iget-object v1, v1, LX/0zv;->A01:LX/2Pe;
+
+    .line 18
+    .line 19
+    if-eqz v1, :cond_0
+
+    .line 20
+    .line 21
+    const/4 v0, 0x1
+
+    .line 22
+    iput-boolean v0, v1, LX/2Pe;->A0G:Z
+
+    .line 23
+    .line 24
+    :cond_0
+    const v0, -0xeb3af62
+
+    .line 25
+    .line 26
+    .line 27
+    invoke-static {v0, v2}, LX/0nS;->A0A(II)V
+
+    .line 28
+    .line 29
+    .line 30
+    return-void
+.end method
+
+.method public final bridge synthetic onSuccessInBackground(Ljava/lang/Object;)V
+    .locals 4
+
+    .line 0
+    const v0, -0x47eb8a85
+
+    .line 1
+    .line 2
+    .line 3
+    invoke-static {v0}, LX/0nS;->A03(I)I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v3
+
+    .line 7
+    const v0, 0x3bfb1d51
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-static {v0}, LX/0nS;->A03(I)I
+
+    .line 11
+    .line 12
+    .line 13
+    move-result v2
+
+    .line 14
+    sget-object v1, LX/0zv;->A0J:LX/0zv;
+
+    .line 15
+    .line 16
+    const-string v0, "STORIES_REQUEST_END"
+
+    .line 17
+    .line 18
+    invoke-virtual {v1, v0}, LX/0zv;->A0C(Ljava/lang/String;)V
+
+    .line 19
+    .line 20
+    .line 21
+    const v0, -0x75725bb1
+
+    .line 22
+    .line 23
+    .line 24
+    invoke-static {v0, v2}, LX/0nS;->A0A(II)V
+
+    .line 25
+    .line 26
+    .line 27
+    const v0, -0x32d611af
+
+    .line 28
+    .line 29
+    .line 30
+    invoke-static {v0, v3}, LX/0nS;->A0A(II)V
+
+    .line 31
+    .line 32
+    .line 33
+    return-void
+    .line 34
+.end method

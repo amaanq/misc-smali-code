@@ -1,0 +1,36 @@
+.class public final LX/NiB;
+.super LX/Ncm;
+.source ""
+
+
+# direct methods
+.method public constructor <init>(Lkotlinx/serialization/descriptors/SerialDescriptor;)V
+    .locals 1
+
+    .line 0
+    const/4 v0, 0x1
+
+    .line 1
+    invoke-static {p1, v0}, LX/0QM;->A0A(Ljava/lang/Object;I)V
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-direct {p0, p1}, LX/Ncm;-><init>(Lkotlinx/serialization/descriptors/SerialDescriptor;)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+    .line 8
+.end method
+
+
+# virtual methods
+.method public final BLH()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "kotlin.collections.ArrayList"
+
+    return-object v0
+.end method

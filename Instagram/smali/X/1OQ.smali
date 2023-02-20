@@ -1,0 +1,152 @@
+.class public final LX/1OQ;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements LX/1OS;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 1
+    .line 2
+    .line 3
+    return-void
+.end method
+
+
+# virtual methods
+.method public final CyV(LX/2s2;LX/2s2;)V
+    .locals 2
+
+    .line 0
+    sget-object v1, LX/1Oe;->A01:LX/1Ct;
+
+    .line 1
+    .line 2
+    const-string v0, "LoggingInfoProviderOperation"
+
+    .line 3
+    .line 4
+    invoke-virtual {p1, v1, v0}, LX/2s2;->A03(LX/1Ct;Ljava/lang/String;)V
+
+    .line 5
+    .line 6
+    .line 7
+    sget-object v1, LX/1Om;->A01:LX/1Ct;
+
+    .line 8
+    .line 9
+    const-string v0, "ClipInfoAttachment"
+
+    .line 10
+    .line 11
+    invoke-virtual {p2, v1, v0}, LX/2s2;->A03(LX/1Ct;Ljava/lang/String;)V
+
+    .line 12
+    .line 13
+    .line 14
+    sget-object v1, LX/1Op;->A02:LX/1Ct;
+
+    .line 15
+    .line 16
+    const-string v0, "PointAttachment"
+
+    .line 17
+    .line 18
+    invoke-virtual {p2, v1, v0}, LX/2s2;->A03(LX/1Ct;Ljava/lang/String;)V
+
+    .line 19
+    .line 20
+    .line 21
+    sget-object v1, LX/1Oq;->A02:LX/1Ct;
+
+    .line 22
+    .line 23
+    const-string v0, "EnumAttachment"
+
+    .line 24
+    .line 25
+    invoke-virtual {p2, v1, v0}, LX/2s2;->A03(LX/1Ct;Ljava/lang/String;)V
+
+    .line 26
+    .line 27
+    .line 28
+    sget-object v1, LX/1Or;->A01:LX/1Ct;
+
+    .line 29
+    .line 30
+    const-string v0, "QualityDataAttachment"
+
+    .line 31
+    .line 32
+    invoke-virtual {p2, v1, v0}, LX/2s2;->A03(LX/1Ct;Ljava/lang/String;)V
+
+    .line 33
+    .line 34
+    .line 35
+    sget-object v1, LX/1Os;->A02:LX/1Ct;
+
+    .line 36
+    .line 37
+    const-string v0, "IngestionStrategyAttachment"
+
+    .line 38
+    .line 39
+    invoke-virtual {p2, v1, v0}, LX/2s2;->A03(LX/1Ct;Ljava/lang/String;)V
+
+    .line 40
+    .line 41
+    .line 42
+    sget-object v1, LX/1Ot;->A0B:LX/1Ct;
+
+    .line 43
+    .line 44
+    const-string v0, "RenderEffects"
+
+    .line 45
+    .line 46
+    invoke-virtual {p2, v1, v0}, LX/2s2;->A03(LX/1Ct;Ljava/lang/String;)V
+
+    .line 47
+    .line 48
+    .line 49
+    sget-object v1, LX/1Ou;->A02:LX/1Ct;
+
+    .line 50
+    .line 51
+    const-string v0, "MediaAttachment"
+
+    .line 52
+    .line 53
+    invoke-virtual {p2, v1, v0}, LX/2s2;->A03(LX/1Ct;Ljava/lang/String;)V
+
+    .line 54
+    .line 55
+    .line 56
+    sget-object v1, LX/1Ov;->A01:LX/1Ct;
+
+    .line 57
+    .line 58
+    const-string v0, "OutputMediaMetadataAttachment"
+
+    .line 59
+    .line 60
+    invoke-virtual {p2, v1, v0}, LX/2s2;->A03(LX/1Ct;Ljava/lang/String;)V
+
+    .line 61
+    .line 62
+    .line 63
+    return-void
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+.end method

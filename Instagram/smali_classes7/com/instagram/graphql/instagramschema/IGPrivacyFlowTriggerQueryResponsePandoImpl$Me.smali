@@ -1,0 +1,96 @@
+.class public final Lcom/instagram/graphql/instagramschema/IGPrivacyFlowTriggerQueryResponsePandoImpl$Me;
+.super Lcom/facebook/pando/TreeJNI;
+.source ""
+
+# interfaces
+.implements LX/2Cv;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Lcom/facebook/pando/TreeJNI;-><init>()V
+
+    .line 1
+    .line 2
+    .line 3
+    return-void
+.end method
+
+
+# virtual methods
+.method public final BDY()LX/2Cx;
+    .locals 2
+
+    .line 0
+    const-class v1, Lcom/instagram/graphql/instagramschema/IGPrivacyFlowTriggerQueryResponsePandoImpl$Me$PrivacyFlowTrigger;
+
+    .line 1
+    .line 2
+    const-string v0, "privacy_flow_trigger(extra_data_json:$extra_data_json,supported_behaviors:$supported_behaviors)"
+
+    .line 3
+    .line 4
+    invoke-virtual {p0, v0, v1}, Lcom/facebook/pando/TreeJNI;->getTreeValue(Ljava/lang/String;Ljava/lang/Class;)Lcom/facebook/pando/TreeJNI;
+
+    .line 5
+    .line 6
+    .line 7
+    move-result-object v0
+
+    .line 8
+    check-cast v0, LX/2Cx;
+
+    .line 9
+    .line 10
+    return-object v0
+.end method
+
+.method public final getEdgeFields()[LX/9iO;
+    .locals 3
+
+    .line 0
+    invoke-static {}, LX/7by;->A1Z()[LX/9iO;
+
+    .line 1
+    .line 2
+    .line 3
+    move-result-object v2
+
+    .line 4
+    const-class v1, Lcom/instagram/graphql/instagramschema/IGPrivacyFlowTriggerQueryResponsePandoImpl$Me$PrivacyFlowTrigger;
+
+    .line 5
+    .line 6
+    const-string v0, "privacy_flow_trigger(extra_data_json:$extra_data_json,supported_behaviors:$supported_behaviors)"
+
+    .line 7
+    .line 8
+    invoke-static {v1, v0, v2}, LX/9iO;->A02(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Object;)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-object v2
+.end method
+
+.method public final getScalarFields()[Ljava/lang/String;
+    .locals 1
+
+    .line 0
+    const/4 v0, 0x1
+
+    .line 1
+    invoke-static {v0}, LX/7c0;->A1b(I)[Ljava/lang/String;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    return-object v0
+    .line 6
+.end method

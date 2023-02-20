@@ -1,0 +1,26 @@
+.class public interface abstract LX/Lfv;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements LX/1Bs;
+
+
+# virtual methods
+.method public abstract AVI()Ljava/lang/String;
+.end method
+
+.method public abstract AVR()Ljava/lang/String;
+.end method
+
+.method public abstract AgR()Ljava/lang/String;
+.end method
+
+.method public abstract BPH()Ljava/lang/String;
+.end method
+
+.method public abstract BPI()Ljava/lang/String;
+.end method
+
+.method public abstract BaQ()Ljava/lang/String;
+.end method

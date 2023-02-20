@@ -1,0 +1,73 @@
+.class public final LX/Buo;
+.super Ljava/lang/Object;
+.source ""
+
+
+# instance fields
+.field public final A00:LX/0je;
+
+.field public final A01:LX/3qj;
+
+.field public final A02:LX/0Sn;
+
+.field public final A03:LX/0Sn;
+
+.field public final A04:LX/0Sn;
+
+.field public final A05:LX/0Sd;
+
+.field public final A06:LX/0Sd;
+
+
+# direct methods
+.method public constructor <init>(LX/0je;LX/3qj;LX/0Sn;LX/0Sn;LX/0Sn;LX/0Sd;LX/0Sd;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 1
+    .line 2
+    .line 3
+    iput-object p1, p0, LX/Buo;->A00:LX/0je;
+
+    .line 4
+    .line 5
+    iput-object p6, p0, LX/Buo;->A05:LX/0Sd;
+
+    .line 6
+    .line 7
+    iput-object p3, p0, LX/Buo;->A02:LX/0Sn;
+
+    .line 8
+    .line 9
+    iput-object p7, p0, LX/Buo;->A06:LX/0Sd;
+
+    .line 10
+    .line 11
+    iput-object p4, p0, LX/Buo;->A03:LX/0Sn;
+
+    .line 12
+    .line 13
+    iput-object p5, p0, LX/Buo;->A04:LX/0Sn;
+
+    .line 14
+    .line 15
+    iput-object p2, p0, LX/Buo;->A01:LX/3qj;
+
+    .line 16
+    .line 17
+    return-void
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+.end method

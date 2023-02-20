@@ -1,0 +1,59 @@
+.class public final LX/0Rh;
+.super LX/062;
+.source ""
+
+
+# direct methods
+.method public constructor <init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
+    .locals 2
+
+    .line 0
+    const-string v0, "Attempting to reuse fragment "
+
+    .line 1
+    .line 2
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    .line 3
+    .line 4
+    invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 8
+    .line 9
+    .line 10
+    const-string v0, " with previous ID "
+
+    .line 11
+    .line 12
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 16
+    .line 17
+    .line 18
+    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object v0
+
+    .line 22
+    invoke-direct {p0, p1, v0}, LX/062;-><init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
+
+    .line 23
+    .line 24
+    .line 25
+    return-void
+    .line 26
+    .line 27
+.end method

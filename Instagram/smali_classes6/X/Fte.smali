@@ -1,0 +1,125 @@
+.class public final LX/Fte;
+.super LX/FDV;
+.source ""
+
+
+# instance fields
+.field public final A00:Lcom/instagram/leadgen/organic/model/LeadGenFormData;
+
+.field public final A01:Lcom/instagram/service/session/UserSession;
+
+.field public final A02:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(LX/4MP;LX/EN2;Lcom/instagram/service/session/UserSession;)V
+    .locals 2
+
+    .line 0
+    new-instance v0, LX/GQ6;
+
+    .line 1
+    .line 2
+    invoke-direct {v0, p2}, LX/GQ6;-><init>(LX/Eoh;)V
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-direct {p0, v0}, LX/FDV;-><init>(LX/GQ6;)V
+
+    .line 6
+    .line 7
+    .line 8
+    iput-object p3, p0, LX/Fte;->A01:Lcom/instagram/service/session/UserSession;
+
+    .line 9
+    .line 10
+    const-string v1, "args_form_data"
+
+    .line 11
+    .line 12
+    iget-object v0, p1, LX/4MP;->A02:Ljava/util/Map;
+
+    .line 13
+    .line 14
+    invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-object v1
+
+    .line 18
+    if-eqz v1, :cond_0
+
+    .line 19
+    .line 20
+    check-cast v1, Lcom/instagram/leadgen/organic/model/LeadGenFormData;
+
+    .line 21
+    .line 22
+    iput-object v1, p0, LX/Fte;->A00:Lcom/instagram/leadgen/organic/model/LeadGenFormData;
+
+    .line 23
+    .line 24
+    iget-object v0, v1, Lcom/instagram/leadgen/organic/model/LeadGenFormData;->A01:LX/Cl3;
+
+    .line 25
+    .line 26
+    invoke-virtual {v0}, Ljava/lang/Enum;->name()Ljava/lang/String;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object v0
+
+    .line 30
+    invoke-static {v0}, LX/F0X;->A0j(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 31
+    .line 32
+    .line 33
+    move-result-object v0
+
+    .line 34
+    iput-object v0, p0, LX/Fte;->A02:Ljava/lang/String;
+
+    .line 35
+    .line 36
+    iget-object v1, v1, Lcom/instagram/leadgen/organic/model/LeadGenFormData;->A04:Ljava/lang/String;
+
+    .line 37
+    .line 38
+    const/4 v0, 0x0
+
+    .line 39
+    invoke-static {v1, v0}, LX/0QM;->A0A(Ljava/lang/Object;I)V
+
+    .line 40
+    .line 41
+    .line 42
+    iput-object v1, p0, LX/FDV;->A00:Ljava/lang/String;
+
+    .line 43
+    .line 44
+    return-void
+
+    .line 45
+    :cond_0
+    invoke-static {}, LX/54O;->A0m()Ljava/lang/IllegalStateException;
+
+    .line 46
+    .line 47
+    .line 48
+    move-result-object v0
+
+    .line 49
+    throw v0
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+.end method

@@ -1,0 +1,11 @@
+.class public interface abstract LX/5Os;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements LX/1Bs;
+
+
+# virtual methods
+.method public abstract getUrl()Ljava/lang/String;
+.end method

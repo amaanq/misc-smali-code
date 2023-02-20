@@ -1,0 +1,46 @@
+.class public final LX/CHI;
+.super LX/1M5;
+.source ""
+
+
+# instance fields
+.field public A00:LX/C9h;
+
+.field public A01:Lcom/instagram/model/shopping/productfeed/ProductFeedResponse;
+
+.field public A02:Lcom/instagram/model/shopping/productfeed/ProductTile;
+
+.field public A03:LX/8PO;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 0
+    const/4 v0, 0x0
+
+    .line 1
+    invoke-direct {p0}, LX/1M5;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object v0, p0, LX/CHI;->A00:LX/C9h;
+
+    .line 5
+    .line 6
+    iput-object v0, p0, LX/CHI;->A02:Lcom/instagram/model/shopping/productfeed/ProductTile;
+
+    .line 7
+    .line 8
+    iput-object v0, p0, LX/CHI;->A01:Lcom/instagram/model/shopping/productfeed/ProductFeedResponse;
+
+    .line 9
+    .line 10
+    iput-object v0, p0, LX/CHI;->A03:LX/8PO;
+
+    .line 11
+    .line 12
+    return-void
+.end method

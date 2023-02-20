@@ -1,0 +1,462 @@
+.class public final enum Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+.super Ljava/lang/Enum;
+.source ""
+
+# interfaces
+.implements Landroid/os/Parcelable;
+
+
+# static fields
+.field public static final A01:Ljava/util/Map;
+
+.field public static final synthetic A02:[Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+.field public static final enum A03:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+.field public static final enum A04:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+.field public static final enum A05:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+.field public static final enum A06:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+.field public static final enum A07:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+.field public static final enum A08:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+.field public static final enum A09:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+.field public static final enum A0A:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+.field public static final enum A0B:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+.field public static final enum A0C:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+
+
+# instance fields
+.field public final A00:Ljava/lang/String;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 14
+
+    .line 0
+    const-string v1, "UNRECOGNIZED"
+
+    .line 1
+    .line 2
+    const/4 v7, 0x0
+
+    .line 3
+    const-string v0, "AdsGenericCardInfoType_unspecified"
+
+    .line 4
+    .line 5
+    new-instance v13, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 6
+    .line 7
+    invoke-direct {v13, v1, v7, v0}, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    .line 8
+    .line 9
+    .line 10
+    sput-object v13, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;->A0C:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 11
+    .line 12
+    const-string v1, "BASIC_CARD"
+
+    .line 13
+    .line 14
+    const/4 v0, 0x1
+
+    .line 15
+    new-instance v12, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 16
+    .line 17
+    invoke-direct {v12, v1, v0, v1}, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    .line 18
+    .line 19
+    .line 20
+    sput-object v12, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;->A03:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 21
+    .line 22
+    const-string v1, "NUMBER_OF_FOLLOWERS"
+
+    .line 23
+    .line 24
+    const/4 v0, 0x2
+
+    .line 25
+    new-instance v11, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 26
+    .line 27
+    invoke-direct {v11, v1, v0, v1}, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    .line 28
+    .line 29
+    .line 30
+    sput-object v11, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;->A06:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 31
+    .line 32
+    const-string v1, "JOIN_TIME"
+
+    .line 33
+    .line 34
+    const/4 v0, 0x3
+
+    .line 35
+    new-instance v10, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 36
+    .line 37
+    invoke-direct {v10, v1, v0, v1}, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    .line 38
+    .line 39
+    .line 40
+    sput-object v10, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;->A05:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 41
+    .line 42
+    const-string v1, "RATING_AND_REVIEW"
+
+    .line 43
+    .line 44
+    const/4 v0, 0x4
+
+    .line 45
+    new-instance v9, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 46
+    .line 47
+    invoke-direct {v9, v1, v0, v1}, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    .line 48
+    .line 49
+    .line 50
+    sput-object v9, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;->A08:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 51
+    .line 52
+    const-string v1, "SHORT_CAPTION"
+
+    .line 53
+    .line 54
+    const/4 v0, 0x5
+
+    .line 55
+    new-instance v8, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 56
+    .line 57
+    invoke-direct {v8, v1, v0, v1}, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    .line 58
+    .line 59
+    .line 60
+    sput-object v8, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;->A0B:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 61
+    .line 62
+    const-string v1, "HEADLINE"
+
+    .line 63
+    .line 64
+    const/4 v0, 0x6
+
+    .line 65
+    new-instance v6, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 66
+    .line 67
+    invoke-direct {v6, v1, v0, v1}, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    .line 68
+    .line 69
+    .line 70
+    sput-object v6, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;->A04:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 71
+    .line 72
+    const-string v1, "SHIPPING_POLICY"
+
+    .line 73
+    .line 74
+    const/4 v0, 0x7
+
+    .line 75
+    new-instance v5, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 76
+    .line 77
+    invoke-direct {v5, v1, v0, v1}, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    .line 78
+    .line 79
+    .line 80
+    sput-object v5, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;->A0A:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 81
+    .line 82
+    const-string v1, "RETURN_POLICY"
+
+    .line 83
+    .line 84
+    const/16 v0, 0x8
+
+    .line 85
+    .line 86
+    new-instance v4, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 87
+    .line 88
+    invoke-direct {v4, v1, v0, v1}, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    .line 89
+    .line 90
+    .line 91
+    sput-object v4, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;->A09:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 92
+    .line 93
+    const-string v1, "PAYMENT_OPTIONS"
+
+    .line 94
+    .line 95
+    const/16 v0, 0x9
+
+    .line 96
+    .line 97
+    new-instance v3, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 98
+    .line 99
+    invoke-direct {v3, v1, v0, v1}, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    .line 100
+    .line 101
+    .line 102
+    sput-object v3, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;->A07:Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 103
+    .line 104
+    const-string v0, "PRICE_RANGE"
+
+    .line 105
+    .line 106
+    const/16 v2, 0xa
+
+    .line 107
+    .line 108
+    new-instance v1, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 109
+    .line 110
+    invoke-direct {v1, v0, v2, v0}, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    .line 111
+    .line 112
+    .line 113
+    const/16 v0, 0xb
+
+    .line 114
+    .line 115
+    new-array v0, v0, [Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 116
+    .line 117
+    invoke-static {v13, v12, v11, v0}, LX/7bx;->A1P(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;)V
+
+    .line 118
+    .line 119
+    .line 120
+    invoke-static {v10, v9, v8, v6, v0}, LX/7by;->A0g(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;)V
+
+    .line 121
+    .line 122
+    .line 123
+    invoke-static {v5, v4, v3, v0}, LX/7bx;->A1L(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;)V
+
+    .line 124
+    .line 125
+    .line 126
+    aput-object v1, v0, v2
+
+    .line 127
+    .line 128
+    sput-object v0, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;->A02:[Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 129
+    .line 130
+    invoke-static {}, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;->values()[Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    .line 131
+    .line 132
+    .line 133
+    move-result-object v4
+
+    .line 134
+    array-length v3, v4
+
+    .line 135
+    invoke-static {v3}, LX/54Q;->A00(I)I
+
+    .line 136
+    .line 137
+    .line 138
+    move-result v0
+
+    .line 139
+    invoke-static {v0}, LX/7bs;->A0k(I)Ljava/util/LinkedHashMap;
+
+    .line 140
+    .line 141
+    .line 142
+    move-result-object v2
+
+    .line 143
+    :goto_0
+    if-ge v7, v3, :cond_0
+
+    .line 144
+    .line 145
+    aget-object v1, v4, v7
+
+    .line 146
+    .line 147
+    iget-object v0, v1, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;->A00:Ljava/lang/String;
+
+    .line 148
+    .line 149
+    invoke-virtual {v2, v0, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 150
+    .line 151
+    .line 152
+    add-int/lit8 v7, v7, 0x1
+
+    .line 153
+    .line 154
+    goto :goto_0
+
+    .line 155
+    :cond_0
+    sput-object v2, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;->A01:Ljava/util/Map;
+
+    .line 156
+    .line 157
+    const/16 v0, 0x38
+
+    .line 158
+    .line 159
+    invoke-static {v0}, LX/7bs;->A0I(I)Lcom/facebook/redex/PCreatorCreatorShape12S0000000_I1_9;
+
+    .line 160
+    .line 161
+    .line 162
+    move-result-object v0
+
+    .line 163
+    sput-object v0, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    .line 164
+    .line 165
+    return-void
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+.end method
+
+.method public constructor <init>(Ljava/lang/String;ILjava/lang/String;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    .line 1
+    .line 2
+    .line 3
+    iput-object p3, p0, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;->A00:Ljava/lang/String;
+
+    .line 4
+    .line 5
+    return-void
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+    .locals 1
+
+    const-class v0, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    return-object v0
+.end method
+
+.method public static values()[Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+    .locals 1
+
+    sget-object v0, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;->A02:[Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    invoke-virtual {v0}, [Ljava/lang/Object;->clone()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final describeContents()I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lcom/instagram/model/reels/sponsored/AdsGenericCardInfoType;->A00:Ljava/lang/String;
+
+    .line 1
+    .line 2
+    return-object v0
+.end method
+
+.method public final writeToParcel(Landroid/os/Parcel;I)V
+    .locals 0
+
+    .line 0
+    invoke-static {p1, p0}, LX/54Q;->A0j(Landroid/os/Parcel;Ljava/lang/Enum;)V
+
+    .line 1
+    .line 2
+    .line 3
+    return-void
+.end method

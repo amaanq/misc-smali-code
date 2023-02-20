@@ -1,0 +1,49 @@
+.class public final Lw2/h;
+.super Lc2/a;
+.source "com.google.android.gms:play-services-games-v2@@17.0.0"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lc2/a<",
+        "Lcom/google/android/gms/games/Player;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/android/gms/common/data/DataHolder;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, Lc2/a;-><init>(Lcom/google/android/gms/common/data/DataHolder;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b(I)Lcom/google/android/gms/games/Player;
+    .locals 2
+
+    .line 1
+    new-instance v0, Lcom/google/android/gms/games/PlayerRef;
+
+    iget-object v1, p0, Lc2/a;->a:Lcom/google/android/gms/common/data/DataHolder;
+
+    .line 2
+    invoke-direct {v0, v1, p1}, Lcom/google/android/gms/games/PlayerRef;-><init>(Lcom/google/android/gms/common/data/DataHolder;I)V
+
+    return-object v0
+.end method
+
+.method public final bridge synthetic get(I)Ljava/lang/Object;
+    .locals 0
+
+    invoke-virtual {p0, p1}, Lw2/h;->b(I)Lcom/google/android/gms/games/Player;
+
+    move-result-object p1
+
+    return-object p1
+.end method

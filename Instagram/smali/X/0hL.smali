@@ -1,0 +1,63 @@
+.class public final LX/0hL;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic A00:I
+
+.field public final synthetic A01:Landroid/view/View;
+
+.field public final synthetic A02:LX/0Tb;
+
+
+# direct methods
+.method public constructor <init>(Landroid/view/View;LX/0Tb;I)V
+    .locals 0
+
+    iput-object p1, p0, LX/0hL;->A01:Landroid/view/View;
+
+    iput p3, p0, LX/0hL;->A00:I
+
+    iput-object p2, p0, LX/0hL;->A02:LX/0Tb;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    .line 0
+    iget-object v1, p0, LX/0hL;->A01:Landroid/view/View;
+
+    .line 1
+    .line 2
+    iget v0, p0, LX/0hL;->A00:I
+
+    .line 3
+    .line 4
+    invoke-virtual {v1, v0}, Landroid/view/View;->setVisibility(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    const/high16 v0, 0x3f800000    # 1.0f
+
+    .line 8
+    .line 9
+    invoke-virtual {v1, v0}, Landroid/view/View;->setAlpha(F)V
+
+    .line 10
+    .line 11
+    .line 12
+    return-void
+    .line 13
+    .line 14
+.end method

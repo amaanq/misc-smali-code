@@ -1,0 +1,32 @@
+.class public final Lga/a;
+.super Lcom/google/protobuf/g1;
+.source "FriendRequestSender.java"
+
+# interfaces
+.implements Lga/b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/protobuf/g1<",
+        "Lcom/supercell/websocket/proxy/protocol/notifications/promotion/FriendRequestSender;",
+        "Lga/a;",
+        ">;",
+        "Lga/b;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    invoke-static {}, Lcom/supercell/websocket/proxy/protocol/notifications/promotion/FriendRequestSender;->access$000()Lcom/supercell/websocket/proxy/protocol/notifications/promotion/FriendRequestSender;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Lcom/google/protobuf/g1;-><init>(Lcom/google/protobuf/m1;)V
+
+    return-void
+.end method
